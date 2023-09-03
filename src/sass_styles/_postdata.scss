@@ -1,0 +1,27 @@
+.post-container {
+  .post {
+    border: 1px solid #000;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    h3 {
+      text-transform: capitalize;
+    }
+    #delBtn {
+      text-align: center;
+      transition: all 0.2s ease-in;
+      .del-btn {
+        background-color: red;
+        color: #fff;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      &:active {
+        transform: scale(0.8);
+      }
+    }
+  }
+}
